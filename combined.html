@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Data Collection Dashboard</title>
+</head>
+<body>
+<br />
+	<h3 align="center">
+		<font face="Lato" size="6">RKE4A</font>
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<font face="cinzel" size="4">
+			<a href="index.html">HOME</a>&nbsp;&nbsp;&nbsp;&nbsp;
+			<a href="new2.html">PLOTS</a>&nbsp;&nbsp;&nbsp;&nbsp;
+			<a href="overview.html">OVERVIEW OF THE THING</a>&nbsp;&nbsp;&nbsp;&nbsp;
+			<a href="controlathing.html">CONTROL A THING</a>&nbsp;&nbsp;&nbsp;&nbsp;
+			<a href="details.html">CREATOR'S DETAILS</a>
+		</font>
+	</h3>
+	
+<h1 align="center" style="background-color:black;color:white;font-size:60px">OVERVIEW OF THE THING</h1>
+<h4>Brief overview of IoT</h4>
+<p>Brief overview of IoT
+
+The internet of Things, or IOT, refers to the vast number of devices that previously lacked internet connectivity but in recent times are now connected to the internet. <br />These devices are all collecting and sharing data, either to each other or to server computers that will process and extract certain information from the data. <br />Thanks to the arrival of affordable but yet computationally capable microchips it is possible to turn everything ranging from devices as small as medicinal pills to contraptions as big as aeroplanes. <br />In recent times we have seen newly connected IoT devices such as smart fridges, toasters, lamps being connected to the internet powering a whole new concept of smart houses the internet of things is making the fabric of the world around us greatly smarter and much more responsive, merging the digital and physical universe.
+</p>
+<h4>Description of the IOT project</h4>
+<p>For this practical project we are required to contribute to the IoT, by creating a webpage or web application that will be able to interface with a ‘Thing’ that is connected to the internet. This thing is a plant that is equipped with 3 sensors measuring the humidity, temperature, and ambient light of plant. These sensors are further connected to an Arduino that further sends this data to an online IoT database called things speak.  The plant is further equipped with an LED panel with a resolution of 4x4 LED lights. The interface of this web page or web application should be able to receive the environmental data from the device using an API provided by the IoT database and it should also be able to manipulate the colours of the individual pixels. In summary the main idea of this project is that we should be able to acquire information and be able to manipulate the device or “thing” without being in direct content with it, through the internet hence the internet of things
+</p>
+<h4>Inputs and Outputs of the smart object</h4>
+<p>Inputs and Outputs of the smart object
+
+The device is equipped with sensors that provide environmental information as output such as the plant humidity, temperature, and ambient light.  <br />The device can also accept input though the internet in the form of an API that can manipulate the colours the individual LEDs in the LED matrix. 
+Smart object user interface 
+
+<br />The interface of this IoT project is a website that will be implemented using various web application technologies. <br />This website will provide charts of the plant environmental information over time and a unique application that will enable a user to manipulate the colours of the individual LEDs in the LED matrix.
+</p>
+<h4>Smart object user interface </h4>
+<p>
+The interface of this IoT project is a website that will be implemented using various web application technologies. This website will provide charts of the plant environmental information over time and a unique application that will enable a user to manipulate the colours of the individual LEDs in the LED matrix.
+</p>
+
+
+<h1 align="center" style="background-color:black;color:white;font-size:60px">Data Collection Dashboard</h1>
+
+<p>
+<div class="iframe-container">
+	<h2 align="center" style="color:black">Temperature chart</h2>
+	<iframe width="450" height="260" style="border: 1px solid #cccccc;" src="https://thingspeak.com/channels/1337674/charts/1?bgcolor=%23ffffff&color=%23d62020&dynamic=true&results=300&type=line&update=15"></iframe>
+	<br>
+	<h2 align="center" style="color:black">Moisture chart</h2>
+	<iframe width="450" height="260" style="border: 1px solid #cccccc;" src="https://thingspeak.com/channels/1337674/charts/2?bgcolor=%23ffffff&color=%23d62020&dynamic=true&results=300&type=line&update=15"></iframe>
+	<br>
+	<h2 align="center" style="color:black">Light chart</h2>
+	<iframe width="450" height="260" style="border: 1px solid #cccccc;" src="https://thingspeak.com/channels/1337674/charts/3?bgcolor=%23ffffff&color=%23d62020&dynamic=true&results=300&type=line&update=15"></iframe>
+	<br>
+	
+</div>
+<style>
+  .iframe-container {
+		text-align:center;
+  		width:100%;
+  }
+</style>
+</p>
+<h3>Links</h3>
+<a href="https://thingspeak.com/channels/1337674">Thingspeak</a><br>
+</td>
+
+<h1 align="center" style="background-color:black;color:white;font-size:60px">CONTROL A THING</h1>
+<br /><br /><br /><br />
+<h1 align="center" style="background-color:black;color:white;font-size:60px">CREATORS' DETAILS</h1>
+<!-- Add icon library -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<div class="card">
+  <img align="left" src="213-2133172_businessman-icon-png-no-profile-picture-png.png" alt="John" style="width:10%">
+  <h1 align="center">HT Nedombeloni</h1>
+  <p align="center" class="title">218055967</p>
+  <p align="center">University of Johannesburg</p>
+  <p align="center">Electrical and Electronic Engineering</p>
+</div>
+<br /><br />
+<div class="card">
+  <img align="left" src="213-2133172_businessman-icon-png-no-profile-picture-png.png" alt="John" style="width:10%">
+  <h1 align="center">TK Ntlhane</h1>
+  <p align="center" class="title">216025318</p>
+  <p align="center">University of Johannesburg</p>
+  <p align="center">Electrical and Electronic Engineering</p>
+</div>
+
+</body>
+</html>
