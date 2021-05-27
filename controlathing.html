@@ -45,7 +45,7 @@ document.getElementById('D1-on').addEventListener('click', function() {
 				var ip2 = ip.slice(1,)
 				ip2 = parseInt(ip2,16).toString()
 				var LEDValue = document.getElementById('LEDNUMBER').value;
-				var url = "http://api.thingspeak.com/update?api_key=EYEON5OR9U5D4JJA&field1="+LEDValue.toString()+"&field2="+ip2
+				var url = "https://api.thingspeak.com/update?api_key=EYEON5OR9U5D4JJA&field1="+LEDValue.toString()+"&field2="+ip2
 				alert(url)
 				$.getJSON(url, function(data) {
 					console.log(data);
